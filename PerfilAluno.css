@@ -96,3 +96,27 @@ header {
 .mini-bot {
     width: 350px;
 }
+
+.myBtn {
+    padding: 20px 40px;
+    background-color: antiquewhite;
+}
+
+.party-time {
+    animation: party 2000ms infinite;
+}
+
+@keyframes party {
+    0% {
+        background-color: red;
+    }
+    33% {
+        background-color: blue;
+    }
+    66% {
+        background-color: yellow;
+    }
+    100% {
+        background-color: green;
+    }
+}
