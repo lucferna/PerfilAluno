@@ -3,68 +3,45 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="./PerfilAluno.css" >
+        <link rel="stylesheet" href="./TemplatePerfil.css" >
         <title>Lucas Gomes</title>
-        <style>
-            body {
-                background-attachment: fixed;
-                background-color: transparent;
-                background-image: linear-gradient(to bottom, #FF6200 42%, #045B5B 87%);
-                background-repeat: no-repeat;
-            }
-            header {
-                background-color: aqua;
-                height: 100px;
-                width: 100%;
-            }
-
-            .main-card {
-                background-color: darkgreen;
-                height: 250px;
-                margin: 50px 0px 0px 0px;
-                width: 100%;
-            }
-            
-            .main-info {
-                display: flex;
-            }
-
-            .card-foto {
-                background-image: url(https://thumbs.dreamstime.com/b/p%C3%A3o-longo-do-naco-22826883.jpg);
-                background-size: contain;
-                border-radius: 50%;
-                height: 90px;
-                width: 90px;
-            }
-
-            .progress-bar {
-                background-color: rgb(228, 168, 4);
-                height: 50px;
-                width: 300px;
-            }
-
-        </style>
     </head>
     <body>
         <header></header>
         <div class="main-card">
-            <div>
-                <h1>ALUNO</h1>
-            </div>
-            <div class="main-info">
-                <div class="card-foto"></div>
-                <div style="background-color: blue;">
-                    <p>Lucas Fernandes Gomes</p>
-                    <p>No time desde 2022</p>
-                    <p>Competição 1</p>
-                    <p>Competição 2</p>
+            <section>
+                <h1>MENTOR</h1>
+            </section>
+            <section class="main-info">
+                <div class="card-img"></div>
+                <div class="card-info">
+                    <ul>
+                        <li>Lucas Gomes</li>
+                        <li>No time desde 2022</li>
+                        <li>Competição 1</li>
+                        <li>Competição 2</li>
+                    </ul>
                 </div>
-                <div style="background-color: green; width: 400px;">
+                <div class="card-progress">
                     <div class="progress-bar"></div>
                     <h3>Nível Ouro</h3>
-                    <a href="google.com">Google</a>
+                    <a href="google.com">Conquistas</a>
                 </div>
-            </div>
+            </section>
+            <nav class="card-socials">
+                <a class="icon" href=""><i></i></a>
+                <a class="icon" href=""><i></i></a>
+                <a class="icon" href=""><i></i></a>
+            </nav>
+            <section class="card-aboutme">
+                <h2>SOBRE MIM</h2>
+                <div style="display: flex; justify-content: space-evenly;">
+                    <span>
+                        Esse robôzinho dança muito!<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin blandit tellus eu ante fringilla hendrerit.
+                    </span>
+                    <img class="mini-bot" src="https://fcit.usf.edu/matrix/wp-content/uploads/2017/01/DanceBot-3-LG.gif">
+                </div>
+            </section>
         </div>
     </body> 
 </html>
